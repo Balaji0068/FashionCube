@@ -1,0 +1,50 @@
+.loginPageContainer {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f2f5;
+}
+
+.loginFormContainer {
+  width: 40%;
+  height: auto;
+  padding: 70px;
+  border: 2px solid #ccc;
+  border-radius: 20px;
+}
+
+
+@media screen and (max-width: 1200px) {
+  .loginFormContainer {
+    width: 53%;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .loginFormContainer {
+    width: 70%;
+  }
+}
+
+
+@media screen and (max-width: 576px) {
+  .loginFormContainer {
+    width: 90%;
+    height: auto; 
+    padding: 30px; 
+  }
+}
+
+
+@media screen and (max-width: 375px) {
+  .loginFormContainer {
+    width: 90%;
+    height: auto; 
+    padding: 20px; 
+  }
+}
+

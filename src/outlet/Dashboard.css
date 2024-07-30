@@ -1,0 +1,12 @@
+
+.dashboard-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  /* Allow the content to grow and take up remaining space */
+  .content {
+    flex: 1;
+  }
+  
